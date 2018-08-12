@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import TodoList from './TodoList.jsx';
 import AddTodo from './AddTodo.jsx';
+import Footer from './Footer.jsx';
 
 import styles from './TodoApp.less';
 
@@ -15,6 +16,7 @@ export default class TodoApp extends Component {
                     <div className={styles.app}>
                         <AddTodo />
                         <TodoList />
+                        <Footer />
                     </div>
                 </div>
             </div>
