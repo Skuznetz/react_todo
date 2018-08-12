@@ -10,7 +10,7 @@ export default class TodoList extends Component {
     render() {
         return (
             <div className="base">
-                todos
+            
                  {
                     this.props.todos.map(todo =>
                         <Todo

@@ -9,3 +9,10 @@ export const toggleTodo = id => ({
     type:'TOGGLE_TODO',
     id
 });
+
+export const setFilter = filter => {
+    return {
+        type: 'SET_FILTER',
+        filter 
+    };
+};
