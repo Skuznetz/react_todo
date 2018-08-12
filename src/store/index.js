@@ -1,6 +1,6 @@
 import { createStore, combineReducers } from 'redux';
 
-import rootReducer from '../reducers';
+import rootReducer from '../reducers/todos.js';
 
 // const createStore = (reducer) => {
 //     let state;
