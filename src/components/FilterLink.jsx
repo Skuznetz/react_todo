@@ -15,6 +15,13 @@ export default class FilterLink extends Component {
     }
 }
 
+
+function mapStateToProps(state, ownProps) {
+    return {
+        active: ownProps.filter === state.filter
+    };
+}
+
 function mapDispatchToProps(dispatch,ownProps){
     return {
         onClick: ()=> dispatch(setFilter(ownProps.filter))
