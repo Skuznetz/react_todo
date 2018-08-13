@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styles from './FilterLink.less';
 import { setFilter } from '../actions';
+import {connect} from 'react-redux';
 
 export default class FilterLink extends Component {
     render() {
