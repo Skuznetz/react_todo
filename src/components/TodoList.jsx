@@ -28,6 +28,7 @@ export default class TodoList extends Component {
 }
 
 function mapStateToProps(state) {
+    console.log(state);
     return {
         todos: state
     };
