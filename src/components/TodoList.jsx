@@ -27,9 +27,22 @@ export default class TodoList extends Component {
     }
 }
 
+
+function getVisibleTodos(todos, filter) {
+    switch (filter) {
+        case 'SHOW_ALL':
+          return todos;
+
+        case 'SHOW_COMPLETED':
+          return todos.filter(todo => todo.completed);
+
+        case 'SHOW_NEW':
+          return todos.filter(todo => !todo.completed);
+    }
+}
+
 function mapStateToProps(state) {
-    console.log(state);
     return {
-        todos: state.todos
+        todos: getVisibleTodos(state.todos, state.filter)
     };
 }
