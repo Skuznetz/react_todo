@@ -17,6 +17,6 @@ export default class FilterLink extends Component {
 
 function mapDispatchToProps(dispatch,ownProps){
     return {
-        onClick: ()=> dispatct(setFilter(ownProps.filter)))
+        onClick: ()=> dispatct(setFilter(ownProps.filter))
     };
 }
