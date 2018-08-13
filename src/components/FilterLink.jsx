@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styles from './FilterLink.less';
+import { setFilter } from '../actions';
 
 export default class FilterLink extends Component {
     render() {
