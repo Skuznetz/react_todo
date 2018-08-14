@@ -16,7 +16,7 @@ export default class TodoList extends Component {
                             id={todo.id}
                             text={todo.text}
                             completed={todo.completed}
-                            onToggle={this.props.toggleTodo}
+                            onToggle={()=> this.props.ontoggleTodo(todo.id)}
                         />
                     )
                 } 
