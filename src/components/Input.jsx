@@ -3,12 +3,12 @@ import { connect } from 'react-redux';
 
 import { addTodo } from '../actions';
 
-import styles from './AddTodo.less';
+import styles from './Input.less';
 
 const ENTER_KEY = 13;
 
 @connect(undefined, { addTodo })
-export default class AddTodo extends Component {
+export default class Input extends Component {
     constructor() {
         super();
 
