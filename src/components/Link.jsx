@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import styles from './Link.less';
-import { setFilter } from '../actions';
-import {connect} from 'react-redux';
-@connect(null,mapDispatchToProps)
 export default class Link extends Component {
     render() {
         const { active, children, onClick } = this.props;
