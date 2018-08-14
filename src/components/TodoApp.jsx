@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import TodoList from './TodoList.jsx';
+import TodoList from '../containers/VisibleTodoList.jsx';
 import AddTodo from './AddTodo.jsx';
 import Footer from './Footer.jsx';
 
