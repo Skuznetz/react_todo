@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import TodoList from '../containers/VisibleTodoList.jsx';
-import AddTodo from './AddTodo.jsx';
+import AddTodo from '../containers/AddTodo.jsx';
 import Footer from './Footer.jsx';
 
 import styles from './TodoApp.less';
