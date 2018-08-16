@@ -14,6 +14,6 @@ function mapDisplatchToProps(dispatch, ownProps) {
 @connect(undefined, mapDisplatchToProps)
 export default class AddTodo extends Component {
     render() {
-        return <Input onEnter={this.props.onAddTodo} placeholder="What needs to be done?" />;
+        return <Input onEnter={this.props.onAddTodo} placeholder="написать задачу" />;
     }
 }
